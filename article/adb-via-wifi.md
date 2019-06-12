@@ -18,7 +18,7 @@ adb tcpip 5555
 
 4) Disconnect the device from USB
 
-5) From your computer, connect adb to the device
+5) From your computer, connect adb to the device. You need to authorize the connection from your phone.
 ```
 adb connect <device IP address>:5555
 ```
@@ -27,6 +27,8 @@ adb connect <device IP address>:5555
 ```
 adb devices
 ```
+
+NOTE: If the phone is shutdown or restarted, you will need to repeat steps 1 to 6
 
 # Reference
 
